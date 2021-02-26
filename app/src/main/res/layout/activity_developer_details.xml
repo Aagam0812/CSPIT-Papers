@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/d1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:cardCornerRadius="20dp"
+
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/text1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="150dp"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="#D6F0FA"
+                    app:cardMaxElevation="15dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="70dp">
+
+                                <TextView
+                                    android:id="@+id/nameA"
+                                    android:layout_width="120dp"
+
+                                    android:layout_height="50dp"
+                                    android:layout_marginLeft="20dp"
+                                    android:layout_marginTop="20dp"
+                                    android:fontFamily="sans-serif-condensed-light"
+                                    android:padding="10dp"
+                                    android:text=" NAME   :-"
+                                    android:textColor="#082F92"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"></TextView>
+
+                                <TextView
+                                    android:layout_width="200dp"
+                                    android:layout_height="50dp"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginTop="20dp"
+                                    android:fontFamily="sans-serif-condensed"
+                                    android:padding="10dp"
+                                    android:text="AAGAM  SHAH"
+                                    android:textAlignment="center"
+                                    android:textColor="#1E27D3"
+                                    android:textSize="25dp"
+                                    android:textStyle="bold"></TextView>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/id1"
+                                    android:layout_width="wrap_content"
+
+                                    android:layout_height="48dp"
+                                    android:layout_marginLeft="30dp"
+                                    android:layout_marginTop="0dp"
+                                    android:fontFamily="sans-serif-condensed-light"
+                                    android:padding="10dp"
+                                    android:text="   ID      :-               18CE103"
+                                    android:textColor="#2467BB"
+                                    android:textSize="25dp"
+                                    android:textAlignment="center"
+                                    android:textStyle="bold"></TextView>
+
+                                <TextView
+                                    android:id="@+id/textView3"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginTop="10dp"
+                                    android:text="              (UI/UX DESIGNER) "
+                                    android:fontFamily="sans-serif"
+                                    android:textColor="#50E0D7"
+                                    android:textSize="25dp"/>
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/color"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/gradient"
+            android:orientation="vertical" />
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:forceHasOverlappingRendering="true"
+            android:src="@drawable/aagam_round">
+
+        </ImageView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+    <!--    -->
+    <!--    2developer-->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/d2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/gradient"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:cardCornerRadius="25dp"
+                    app:cardBackgroundColor="#D6F0FA"
+                    app:cardMaxElevation="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="70dp">
+
+                            <TextView
+                                android:id="@+id/name"
+                                android:layout_width="120dp"
+
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginTop="20dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:padding="10dp"
+                                android:text=" NAME   :-"
+                                android:textColor="#082F92"
+                                android:textSize="25dp"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView
+                                android:layout_width="200dp"
+                                android:layout_height="50dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="20dp"
+                                android:fontFamily="sans-serif-condensed"
+                                android:padding="10dp"
+                                android:text="KARNA  SHAH"
+                                android:textAlignment="center"
+                                android:textColor="#1E27D3"
+                                android:textSize="25dp"
+                                android:textStyle="bold"></TextView>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/id"
+                                android:layout_width="wrap_content"
+
+                                android:layout_height="48dp"
+                                android:layout_marginLeft="30dp"
+                                android:layout_marginTop="0dp"
+                                android:fontFamily="sans-serif-condensed-light"
+                                android:padding="10dp"
+                                android:text="   ID      :-              18CE111"
+                                android:textColor="#2467BB"
+                                android:textSize="25dp"
+                                android:textStyle="bold"></TextView>
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="match_parent"
+                                android:layout_height="40dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_marginTop="10dp"
+                                android:text="         (DATABASE DESIGNER) "
+                                android:fontFamily="sans-serif"
+
+                                android:textColor="#50E0D7"
+                                android:textSize="25dp"/>
+
+
+                        </LinearLayout>
+
+
+
+
+                    </LinearLayout>
+
+
+                </androidx.cardview.widget.CardView>
+
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="80dp"
+            android:forceHasOverlappingRendering="true"
+            android:src="@drawable/karna_round">
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+

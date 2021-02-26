@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "277998250357",
+    "firebase_url": "https://cspit-last-year-papers.firebaseio.com",
+    "project_id": "cspit-last-year-papers",
+    "storage_bucket": "cspit-last-year-papers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:277998250357:android:447cf8e33bc0bb70",
+        "android_client_info": {
+          "package_name": "com.example.karnadevloper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "277998250357-eashbimmhafi59grb9431bgh3sljbdls.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.karnadevloper",
+            "certificate_hash": "3d654c88d6bbc438515cd8288bc36521bf3a9511"
+          }
+        },
+        {
+          "client_id": "277998250357-833q1g0kv58fvvc89pfnp3boajvqsi4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH21jmTVfiLcsg06lREuWPYvUlWEnacto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "277998250357-833q1g0kv58fvvc89pfnp3boajvqsi4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
